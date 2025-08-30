@@ -86,7 +86,7 @@ flutter:
   # Step 2: Install loading app screen
   assets:
     - ./android/assets/images/ #show all
-    - ./android/assets/images/app_screen.png #show specific
+    - ./android/assets/images/LOGO2.png #show specific
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/to/asset-from-package
 
