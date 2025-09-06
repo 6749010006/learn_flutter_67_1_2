@@ -17,7 +17,7 @@ class _FirstScreenState extends State<FirstScreen> {
   @override
   void initState() {
     super.initState();
-    // ✅ รอ build เสร็จก่อนแล้วค่อยเช็คเน็ต
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       checkInternetConnection();
     });
